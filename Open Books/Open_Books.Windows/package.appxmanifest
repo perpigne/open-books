@@ -1,47 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-
-  <Identity
-    Name="e9caa0b4-b433-4145-a719-7af31a938882"
-    Version="1.0.0.0"
-    Publisher="CN=perpigne" />
-
+  <Identity Name="e9caa0b4-b433-4145-a719-7af31a938882" Version="1.0.0.0" Publisher="CN=perpigne" />
   <Properties>
     <DisplayName>Open_Books.Windows</DisplayName>
     <PublisherDisplayName>perpigne</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.3.0</OSMinVersion>
     <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
     <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application 
-      Id="App"
-      StartPage="default.html">
-
-      <m2:VisualElements
-        DisplayName="Open_Books.Windows"
-        Description="Open_Books.Windows"
-        ForegroundText="light"
-        BackgroundColor="#464646"
-        Square150x150Logo="images\Logo.png"
-        Square30x30Logo="images\SmallLogo.png">
-
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="Open_Books.Windows" Description="Open_Books.Windows" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+        <m2:DefaultTile Square70x70Logo="images\Square70x70Logo.png">
+        </m2:DefaultTile>
         <m2:SplashScreen Image="images\splashscreen.png" />
-
       </m2:VisualElements>
     </Application>
   </Applications>
-
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
-
 </Package>
