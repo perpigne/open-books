@@ -11,6 +11,11 @@ Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "Open_Books.Windows", "Open 
 EndProject
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "Open_Books.WindowsPhone", "Open Books\Open_Books.WindowsPhone\Open_Books.WindowsPhone.jsproj", "{11839598-B0B8-41F6-81CA-2AAB589594DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22D00D7E-8C71-4C35-BBB9-CC15B39026E7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Open Books\Open_Books.Shared\Open_Books.Shared.projitems*{11839598-b0b8-41f6-81ca-2aab589594da}*SharedItemsImports = 5
